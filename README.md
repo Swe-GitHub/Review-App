@@ -7,4 +7,4 @@ React-DOM : 17.0.2
 React-Scripts : 4.0.0
 @ftrack/api : 0.8.0-aplpha.2
 
-Download the files and run in the local 
+Download the files and run in the local or use codesandbox link https://codesandbox.io/s/ftrack-code-test-template-forked-voujh?file=/src
