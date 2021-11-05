@@ -1,0 +1,127 @@
+.App,.ReviewCard{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ReviewCard{
+  padding-bottom: 10px;
+}
+.cardContainer{
+    background-color: #1F252B;
+    padding: 2px;
+    border: 1px solid #2D3239;
+    margin-right: 19px;
+    margin-top: 25px;
+}
+h2{
+  color:#E3E4E5;
+}
+body{
+  background-color: #131920;
+}
+.listContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.CardHeader{
+  color:#E3E4E5;
+}
+button{
+    align-self: center;
+    background-color: #935ba2;
+    color: white;
+    width: 94px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover{
+    background-color: #5a4160;
+    transition: 1s;
+}
+p{
+  color: #BF9AC9;
+}
+.submitButton{
+  width: 187px;
+  margin-bottom: 19px;  
+}
+input[type=text]{
+    width: 50%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A9ABAE;
+    margin-bottom: 25px;
+    transition: .5s;
+    font-size: 15px;
+    color: white;
+}
+input[type=text]:focus-visible,#end_date:focus-visible{
+  outline: none;
+  border-bottom: 2px solid #935ba2;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(.6);
+}
+.overlay{
+  width: 100%;
+  height: 124%;
+  position: absolute;
+  background-color: #000000bd;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.closeButton{
+    position: relative;
+    width: 34px;
+    border-radius: 23px;
+}
+form{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 29px;
+}
+.popupBox{
+  width: 50%;
+  background-color: #2D3239;
+  border-radius: 10px;
+}
+.btnGroup{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.finalOptions{
+  margin-top: 30px;
+}
+#end_date{
+    background: transparent;
+    color: #A9ABAE;
+    border: none;
+    border-bottom: 2px solid #A9ABAE;
+    font-size: 16px;
+}
+.finalOptions button{
+  margin-right: 10px;
+}
+.btnGroup button{
+  margin-right: 10px;
+  width: 120px;
+  background-color: #131920;
+}
+.btnGroup button:hover{
+  background-color: #935ba2;
+}
+label{
+  color: #A9ABAE;
+}
+.active{
+  border: 2px solid #935ba2 !important;
+}
